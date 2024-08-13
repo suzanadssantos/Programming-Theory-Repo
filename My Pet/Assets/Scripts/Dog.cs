@@ -11,7 +11,6 @@ public class Dog : Pet
     void Start()
     { 
         jumpForce = 3.5f;
-        runSpeed = 2.0f;
         turnSpeed = 14.0f;
         rb = GetComponent<Rigidbody>();
     }
@@ -21,5 +20,13 @@ public class Dog : Pet
     {
         Run();
         Jump();
+        Talk();
+    }
+
+    public override void Run(){
+        float horizontalInput = Input.GetAxis("Horizontal");
+
+        transform.Translate(2.0f * Time.deltaTime * Vector3.forward);
+        transform.Rotate(turnSpeed * Time.deltaTime * horizontalInput * Vector3.up);  
     }
 }

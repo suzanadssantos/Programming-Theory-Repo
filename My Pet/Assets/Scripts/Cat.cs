@@ -20,5 +20,6 @@ public class Cat : Pet
     {
         Run();
         Jump();
+        Talk();
     }
 }

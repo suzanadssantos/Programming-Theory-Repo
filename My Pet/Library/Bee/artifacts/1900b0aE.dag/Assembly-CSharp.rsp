@@ -358,8 +358,8 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/MenuManager.cs"
 "Assets/Scripts/Pet.cs"
-"Assets/Unity Assets/Bublisher/3D Stylized Animated Dogs Kit/Scripts/AnimationButton.cs"
-"Assets/Unity Assets/Bublisher/3D Stylized Animated Dogs Kit/Scripts/DemoController.cs"
+"Assets/Unity Assets/3D Stylized Animated Dogs Kit/Scripts/AnimationButton.cs"
+"Assets/Unity Assets/3D Stylized Animated Dogs Kit/Scripts/DemoController.cs"
 "Assets/Unity Assets/Lowpoly Toon Cat Lite/Demo/Cat_Lite_Demo.cs"
 -langversion:9.0
 /deterministic
