@@ -1179,9 +1179,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 265352076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97af8a5e8ec97234d9778ca7e08a96f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 8538eaf1f50f513428a01b20f81c0d32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameText: {fileID: 535471212}
 --- !u!1001 &265727532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3133,11 +3134,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a7dd5fe66a2eb4aa9703b956c6f896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
+  rb: {fileID: 741167505}
   runSpeed: 1
   turnSpeed: 1
   jumpForce: 6
   isGrounded: 0
+  petNameText: {fileID: 535471212}
 --- !u!1001 &746907321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5169,7 +5171,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 265352078}
-        m_TargetAssemblyTypeName: Game, Assembly-CSharp
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: BackToMenu
         m_Mode: 1
         m_Arguments:
@@ -5368,7 +5370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1576488453971394810, guid: a778b631c6253a04899cb31bad047c81, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -0.78
       objectReference: {fileID: 0}
     - target: {fileID: 1576488453971394810, guid: a778b631c6253a04899cb31bad047c81, type: 3}
       propertyPath: m_LocalPosition.z
